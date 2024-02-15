@@ -5,7 +5,7 @@ require("dotenv").config();
 const PORT = process.env.PORT
 const cors=require("cors")
 const{userRouter}= require("./Route/UserRoute");
-const { productRouter } = require("./Route/productRoute");
+const { productRouter } = require("./Route/ProductRoute");
 const axios = require("axios");
 // const {authMiddleware}=require("./Middleware/auth.middleware");
 const cookieParser = require('cookie-parser');
