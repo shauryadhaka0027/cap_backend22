@@ -17,7 +17,7 @@ const cookieParser = require('cookie-parser');
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin: "*",
+    origin: ["https://elaborate-crisp-3d5473.netlify.app"],
     credentials: true
   }));
  
