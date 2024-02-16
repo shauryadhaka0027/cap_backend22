@@ -17,7 +17,7 @@ const cookieParser = require('cookie-parser');
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-     origin: "*",
+     origin: "https://65cf067765788b87fb36c015--celebrated-lamington-79bbb8.netlify.app",
     credentials: true
   }));
  
